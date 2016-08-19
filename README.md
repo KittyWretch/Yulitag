@@ -1,4 +1,4 @@
-# Yulitag
+# Yuliana's Image Tagger
 
 Simple commandline image watermarking tool.
 
