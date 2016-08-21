@@ -171,6 +171,9 @@ int main(int argc, char *argv[])
         if(!output_filename.size()) {
             quit_with_error(argv[0], "No output filename specified in write mode.");
         }
+        if(!encode_string.size()) {
+            quit_with_error(argv[0], "No string specified to encode.");
+        }
     }
 
     int width = 0;
